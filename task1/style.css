@@ -43,6 +43,7 @@ body{
     background: white;
 }
 #addpage{
+
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 150px;
@@ -53,6 +54,7 @@ body{
     float: right;
 }
 #blogpage{
+
     margin-top: 20px;
     text-align: left;
 }
