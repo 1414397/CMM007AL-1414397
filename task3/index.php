@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bug tracker home page</title>
+    <title>Blog home page</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css" >
     <link href='https://fonts.googleapis.com/css?family=Amiri:400,700' rel='stylesheet' type='text/css'>
