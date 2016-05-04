@@ -1,22 +1,29 @@
 h3{
     position: relative;
-    margin-top: -30px;
-    font-family: 'Amiri', serif;
+    margin-top: -10px;
+    font-family: 'Lato', serif;
     font-weight: 700;
+    color:#696b60 ;
 }
 
 header{
-    background-color: #59a8ff;
+    background-color: #ffbf54;
+    max-width: 960px;
+}
+nav{
+
 }
 
 /*horizontal list*/
 ul{
     list-style-type: none;
-    margine:0px;
-    padding: 0px;
+    margine:2px;
+    padding: 2px;
+
 }
 li{
     float: left;
+
 }
 li a {
     text-decoration: none;
@@ -24,27 +31,28 @@ li a {
     display: inline-block;
     text-align: center;
 }
-
+h1{
+    font-family: 'Lato', serif;
+    font-weight: 700;
+}
 body{
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Amiri', serif;
-    font-weight: 700;
+    font-family: 'Lato', serif;
+    font-weight: 400;
 }
-/*main{
+main{
     padding-right: 0px;
     margin-top: auto;
-}*/
+}
 
 #pageindex{
-    margin-top: 20px;
+
     float: left;
     background: white;
 }
 #addpage{
-
-    margin-top: 20px;
     margin-left: 100px;
     margin-right: 150px;
 }
@@ -54,7 +62,6 @@ body{
     float: right;
 }
 #blogpage{
-
     margin-top: 20px;
     text-align: left;
 }
@@ -72,11 +79,27 @@ aside{
 
 
 
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 
 
 footer{
-    background: darkolivegreen;
+    max-width: 960px;
+    background: #696b60;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 2px;
 }
 
