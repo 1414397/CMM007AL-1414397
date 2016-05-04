@@ -9,6 +9,9 @@ header{
     background-color: #ffbf54;
     max-width: 960px;
 }
+nav{
+    background-color: tan;
+}
 
 /*horizontal list*/
 ul{
@@ -18,7 +21,7 @@ ul{
 }
 li{
     float: left;
-    background-color: tan;
+
 }
 li a {
     text-decoration: none;
