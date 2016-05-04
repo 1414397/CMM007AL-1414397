@@ -16,9 +16,9 @@
     <nav>
         <ul>
             <li><a href="blog.php">All Blog Items</a></li>
-            <li><a href="blog.php">Work Items</a></li>
-            <li><a href="blog.php">University Items</a></li>
-            <li><a href="blog.php">Family Items</a></li>
+            <li><a href="blog.php?display=work">Work Items</a></li>
+            <li><a href="blog.php?display=uni">University Items</a></li>
+            <li><a href="blog.php?display=family">Family Items</a></li>
             <li><a href="add.php">Insert Items</a></li>
         </ul>
 

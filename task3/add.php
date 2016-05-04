@@ -15,11 +15,11 @@
 
     <nav>
         <ul>
-            <li><a href="blog.html">All Blog Items</a></li>
-            <li><a href="blog.html">Work Items</a></li>
-            <li><a href="blog.html">University Items</a></li>
-            <li><a href="blog.html">Family Items</a></li>
-            <li><a href="add.html">Insert Items</a></li>
+            <li><a href="blog.php">All Blog Items</a></li>
+            <li><a href="blog.php?display=work">Work Items</a></li>
+            <li><a href="blog.php?display=uni">University Items</a></li>
+            <li><a href="blog.php?display=family">Family Items</a></li>
+            <li><a href="add.php">Insert Items</a></li>
         </ul>
 
     </nav>
