@@ -16,9 +16,9 @@
     <nav>
         <ul>
             <li><a href="blog.php">All Blog Items</a></li>
-            <li><a href="blog.php">Work Items</a></li>
-            <li><a href="blog.php">University Items</a></li>
-            <li><a href="blog.php">Family Items</a></li>
+            <li><a href="blog.php?display=work">Work Items</a></li>
+            <li><a href="blog.php?display=uni">University Items</a></li>
+            <li><a href="blog.php?display=family">Family Items</a></li>
             <li><a href="add.php">Insert Items</a></li>
         </ul>
 
@@ -27,26 +27,36 @@
 <main class="grid-container">
     <section class="grid-99" id="blogpage">
         <br>
-        <p>
-            <a href="#">entryTitle: Today at work</a>
-            <br>entrySummary: Today I went to work and did lots of very complicated coding things. I was very pleased that I managed to finish them all
-            <br>category: Work
-            <br>submitter: Adam
-        </p>
-        <hr>
-        <p>
-            <a href="#">entryTitle: University Lecturer</a>
-            <br>entrySummary: This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.
-            <br>category: University
-            <br>submitter: Brian
-        </p>
-        <hr>
-        <p>
-            <a href="#">entryTitle: Dads new television</a>
-            <br>entrySummary: Today dad bought a new television. He likes to watch the F1 on it a lot.
-            <br>category: Family
-            <br>submitter: Charlie
-        </p>
+
+
+        <?php
+        include('connection.php');
+        $display=$_GET["display"];
+        if($display=="work")
+        {
+            $sql = "SELECT * FROM blogView WHERE category='Work'";
+        }
+        else if($display=="uni")
+        {
+            $sql = "SELECT * FROM blogView WHERE category='University'";
+        }
+        else if($display=="family")
+        {
+            $sql = "SELECT * FROM blogView WHERE category='Family'";
+        }
+        else
+        {
+            $sql = "SELECT * FROM blogView";
+        }
+        $result =mysqli_query($db, $sql);
+        if (mysqli_num_rows($result) > 0) {
+            while($row = mysqli_fetch_assoc($result)) {
+                echo  $row["blogitemID"]. "  " . $row["entryTitle"]. " " . $row["entrySummary"].  " " . $row["category"]." " . $row["submitter"]."<br>";
+            }
+        } else {
+            echo "0 results";
+        }
+        ?>
 
     </section>
 </main>
