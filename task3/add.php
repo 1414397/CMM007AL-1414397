@@ -26,6 +26,8 @@
 </header>
 <main class="grid-container">
     <section class="grid-99" id="addpage">
+
+        <br><br>
         <?php
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             // execute if requested using HTTP GET Method
