@@ -17,6 +17,7 @@ ul{
 }
 li{
     float: left;
+    background-color: tan;
 }
 li a {
     text-decoration: none;
