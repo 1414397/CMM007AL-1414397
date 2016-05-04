@@ -51,7 +51,7 @@
         $result =mysqli_query($db, $sql);
         if (mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
-                echo  $row["blogitemID"]. "<br>  " . $row["entryTitle"]. "<br> " . $row["entrySummary"].  "<br> " . $row["category"]."<br> " . $row["submitter"]."<br><hr>";
+                echo  $row["blogitemID"]. "<br> Entry Title : " . $row["entryTitle"]. "<br> Entry Summary : " . $row["entrySummary"].  "<br> Bug Category : " . $row["category"]."<br> Submited By : " . $row["submitter"]."<br><hr>";
             }
         } else {
             echo "0 results";
