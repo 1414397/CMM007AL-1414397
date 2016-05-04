@@ -1,0 +1,79 @@
+h3{
+    position: relative;
+    margin-top: -30px;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+
+header{
+    background-color: #59a8ff;
+}
+
+/*horizontal list*/
+ul{
+    list-style-type: none;
+    margine:0px;
+    padding: 0px;
+}
+li{
+    float: left;
+}
+li a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+body{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+/*main{
+    padding-right: 0px;
+    margin-top: auto;
+}*/
+
+#pageindex{
+
+    float: left;
+    background: white;
+}
+#addpage{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+
+#submitbutton{
+    float: right;
+}
+#blogpage{
+    margin-top: 20px;
+    text-align: left;
+}
+#blog{
+    height: 200px;
+    width:200px;
+    float: right;
+}
+aside{
+
+    background:white;
+
+}
+
+
+
+
+
+
+footer{
+    background: darkolivegreen;
+    font-weight: 700;
+    text-align: center;
+}
+

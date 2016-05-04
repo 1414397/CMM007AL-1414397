@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bug tracker home page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css" >
+    <link href='https://fonts.googleapis.com/css?family=Amiri:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+
+    <h1>myBlog</h1>
+    <h3>because internet needs to know what i think</h3>
+
+    <nav>
+        <ul>
+            <li><a href="blog.html">All Blog Items</a></li>
+            <li><a href="blog.html">Work Items</a></li>
+            <li><a href="blog.html">University Items</a></li>
+            <li><a href="blog.html">Family Items</a></li>
+            <li><a href="add.html">Insert Items</a></li>
+        </ul>
+
+    </nav>
+</header>
+<main class="grid-container">
+    <section class="grid-99" id="addpage">
+
+        <form >
+            <br><br>
+            <legend>Blog Entry...</legend>
+            <label >Entry Title : </label><input type="text" name="title" size="45" REQUIRED> <br><br>
+            <label>Entry Summary : </label><textarea name="summary" cols="45" rows="5" required></textarea><br>
+            <label>Bug Category : </label>
+            <select name="category" required>
+                <option value="">select category</option>
+                <option value="Work">Work</option>
+                <option value="University">University</option>
+                <option value="Family">Family</option>
+            </select>
+            <br><br>
+            <label >Submited By : </label><input type="text" name="person" size="45"> <br><br>
+            <input type="Submit" id="submitbutton">
+
+        </form>
+
+    </section>
+</main>
+<footer>
+    <hr>
+    <p>Designed by[Ami Jiyani[2016]]</p>
+</footer>
+</body>
+</html>
