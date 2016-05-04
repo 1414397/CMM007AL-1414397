@@ -38,11 +38,12 @@ body{
 }*/
 
 #pageindex{
-
+    margin-top: 20px;
     float: left;
     background: white;
 }
 #addpage{
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 150px;
 }
