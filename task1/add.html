@@ -10,7 +10,7 @@
 <body>
 <header>
 
-    <h1>myBlog</h1>
+    <a href="index.php"><h1>myBlog</h1></a>
     <h3>because internet needs to know what i think</h3>
 
     <nav>

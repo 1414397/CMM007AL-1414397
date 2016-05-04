@@ -10,7 +10,7 @@
 <body>
 <header>
 
-    <h1>myBlog</h1>
+    <a href="index.php"><h1>myBlog</h1></a>
     <h3>because internet needs to know what i think</h3>
 
     <nav>
@@ -51,7 +51,7 @@
         $result =mysqli_query($db, $sql);
         if (mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
-                echo  $row["blogitemID"]. "  " . $row["entryTitle"]. " " . $row["entrySummary"].  " " . $row["category"]." " . $row["submitter"]."<br>";
+                echo  $row["blogitemID"]. "<br>  " . $row["entryTitle"]. "<br> " . $row["entrySummary"].  "<br> " . $row["category"]."<br> " . $row["submitter"]."<br><hr>";
             }
         } else {
             echo "0 results";
