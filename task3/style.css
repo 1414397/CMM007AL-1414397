@@ -10,7 +10,7 @@ header{
     max-width: 960px;
 }
 nav{
-    background-color: tan;
+
 }
 
 /*horizontal list*/
@@ -18,7 +18,7 @@ ul{
     list-style-type: none;
     margine:2px;
     padding: 2px;
-    background-color: tan;
+
 }
 li{
     float: left;
