@@ -12,8 +12,8 @@ header{
 /*horizontal list*/
 ul{
     list-style-type: none;
-    margine:0px;
-    padding: 0px;
+    margine:2px;
+    padding: 2px;
 }
 li{
     float: left;
