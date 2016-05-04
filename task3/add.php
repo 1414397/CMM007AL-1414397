@@ -33,7 +33,7 @@
             ?>
             <form action="<? echo $_SERVER['PHP_SELF'];?>" method="post">
                 <br>
-                <legend>Blog Entry...</legend>
+                <legend>Blog Entry...</legend><br>
                 <label >Entry Title : </label><input type="text" name="title" size="45" REQUIRED> <br><br>
                 <label>Entry Summary : </label><textarea name="summary" cols="45" rows="5" required></textarea><br>
                 <label>Bug Category : </label>
