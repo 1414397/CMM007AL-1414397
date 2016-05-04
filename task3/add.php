@@ -24,7 +24,7 @@
     </nav>
 </header>
 <main class="grid-container">
-    <section class="grid-99" id="addpage">
+    <section class="grid-99 tablet-grid100 mobile-grid-100" id="addpage">
 
         <br>
         <?php
