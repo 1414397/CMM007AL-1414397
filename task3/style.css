@@ -1,7 +1,7 @@
 h3{
     position: relative;
     margin-top: -30px;
-    font-family: 'Amiri', serif;
+    font-family: 'Lato', serif;
     font-weight: 700;
 }
 
@@ -24,18 +24,21 @@ li a {
     display: inline-block;
     text-align: center;
 }
-
+h1{
+    font-family: 'Lato', serif;
+    font-weight: 900;
+}
 body{
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Amiri', serif;
-    font-weight: 700;
+    font-family: 'Lato', serif;
+    font-weight: 400;
 }
-/*main{
+main{
     padding-right: 0px;
     margin-top: auto;
-}*/
+}
 
 #pageindex{
 
